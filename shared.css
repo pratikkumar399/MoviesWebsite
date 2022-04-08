@@ -1,0 +1,120 @@
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 2px 4px 8px rgb(68, 68, 67);
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #474747;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #fff, #262626);
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#page-logo a {
+    padding: 10px;
+    font-family: "Oleo Script", sans-serif;
+    color: rgb(245, 243, 160);
+    font-size: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+header a {
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-radius: 6px;
+}
+
+header a:hover {
+    color: rgb(77, 77, 77);
+    background-color: rgb(255, 251, 0);
+}
+
+#highlights h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 38px;
+    color: rgb(59, 65, 64);
+}
+
+#movies {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 40px;
+    /* justify-content: space-evenly; */
+}
+
+.movie {
+    margin: 0px 20px;
+    text-transform: uppercase;
+}
+
+.movie p {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(124, 123, 123);
+    margin: 20px 0;
+}
+
+.movie img {
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    object-fit: cover;
+}
+
+.movie strong {
+    color: rgb(0, 160, 117);
+}
