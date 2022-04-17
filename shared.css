@@ -25,6 +25,11 @@
     background: linear-gradient(180deg, #fff, #262626);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Quicksand", sans-serif;
 }
@@ -79,6 +84,11 @@ header a:hover {
     background-color: rgb(255, 251, 0);
 }
 
+#highlights {
+    padding: 24px;
+    background: linear-gradient(45deg, rgb(227, 255, 253), rgb(202, 243, 216));
+}
+
 #highlights h2 {
     text-transform: uppercase;
     text-align: center;
@@ -117,4 +127,27 @@ header a:hover {
 
 .movie strong {
     color: rgb(0, 160, 117);
+}
+
+footer {
+    background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+    padding: 26px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 40px; */
+}
+
+footer li {
+    width: 50px;
+    height: 50px;
+    margin: 0 40px;
+}
+
+footer img {
+    width: 100%;
+    height: 100%;
 }
